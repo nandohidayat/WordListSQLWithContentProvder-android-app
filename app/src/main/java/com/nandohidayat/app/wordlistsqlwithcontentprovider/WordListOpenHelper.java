@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.example.wordlistsqlwithcontentprovider;
+package com.nandohidayat.app.wordlistsqlwithcontentprovider;
 
 import android.content.ContentValues;
 import android.content.Context;
@@ -25,11 +25,11 @@ import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.util.Log;
 
-import static com.android.example.wordlistsqlwithcontentprovider.Contract.ALL_ITEMS;
-import static com.android.example.wordlistsqlwithcontentprovider.Contract.DATABASE_NAME;
-import static com.android.example.wordlistsqlwithcontentprovider.Contract.WordList.KEY_ID;
-import static com.android.example.wordlistsqlwithcontentprovider.Contract.WordList.KEY_WORD;
-import static com.android.example.wordlistsqlwithcontentprovider.Contract.WordList.WORD_LIST_TABLE;
+import static com.nandohidayat.app.wordlistsqlwithcontentprovider.Contract.ALL_ITEMS;
+import static com.nandohidayat.app.wordlistsqlwithcontentprovider.Contract.DATABASE_NAME;
+import static com.nandohidayat.app.wordlistsqlwithcontentprovider.Contract.WordList.KEY_ID;
+import static com.nandohidayat.app.wordlistsqlwithcontentprovider.Contract.WordList.KEY_WORD;
+import static com.nandohidayat.app.wordlistsqlwithcontentprovider.Contract.WordList.WORD_LIST_TABLE;
 
 /**
  * Open helper for the list of words database.

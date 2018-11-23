@@ -15,7 +15,7 @@ limitations under the License. -->
 
 <manifest
     xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.android.example.wordlistsqlwithcontentprovider">
+    package="com.nandohidayat.app.wordlistsqlwithcontentprovider">
 
     <permission android:name="com.android.example.wordlistsqlwithcontentprovider.PERMISSION" />
 
@@ -25,7 +25,7 @@ limitations under the License. -->
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="com.android.example.wordlistsqlwithcontentprovider.MainActivity">
+        <activity android:name="com.nandohidayat.app.wordlistsqlwithcontentprovider.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -33,10 +33,10 @@ limitations under the License. -->
             </intent-filter>
 
         </activity>
-        <activity android:name="com.android.example.wordlistsqlwithcontentprovider.EditWordActivity">
+        <activity android:name="com.nandohidayat.app.wordlistsqlwithcontentprovider.EditWordActivity">
         </activity>
         <provider
-            android:name=".WordListContentProvider"
+            android:name="com.nandohidayat.app.wordlistsqlwithcontentprovider.WordListContentProvider"
             android:authorities="com.android.example.wordlistsqlwithcontentprovider.provider"
             android:exported="true">
         </provider>

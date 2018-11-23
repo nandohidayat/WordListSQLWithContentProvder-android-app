@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.example.wordlistsqlwithcontentprovider;
+package com.nandohidayat.app.wordlistsqlwithcontentprovider;
 
 import android.content.ContentProvider;
 import android.content.ContentValues;
@@ -23,13 +23,13 @@ import android.database.Cursor;
 import android.net.Uri;
 import android.util.Log;
 
-import static com.android.example.wordlistsqlwithcontentprovider.Contract.ALL_ITEMS;
-import static com.android.example.wordlistsqlwithcontentprovider.Contract.AUTHORITY;
-import static com.android.example.wordlistsqlwithcontentprovider.Contract.CONTENT_PATH;
-import static com.android.example.wordlistsqlwithcontentprovider.Contract.CONTENT_URI;
-import static com.android.example.wordlistsqlwithcontentprovider.Contract.COUNT;
-import static com.android.example.wordlistsqlwithcontentprovider.Contract.MULTIPLE_RECORDS_MIME_TYPE;
-import static com.android.example.wordlistsqlwithcontentprovider.Contract.SINGLE_RECORD_MIME_TYPE;
+import static com.nandohidayat.app.wordlistsqlwithcontentprovider.Contract.ALL_ITEMS;
+import static com.nandohidayat.app.wordlistsqlwithcontentprovider.Contract.AUTHORITY;
+import static com.nandohidayat.app.wordlistsqlwithcontentprovider.Contract.CONTENT_PATH;
+import static com.nandohidayat.app.wordlistsqlwithcontentprovider.Contract.CONTENT_URI;
+import static com.nandohidayat.app.wordlistsqlwithcontentprovider.Contract.COUNT;
+import static com.nandohidayat.app.wordlistsqlwithcontentprovider.Contract.MULTIPLE_RECORDS_MIME_TYPE;
+import static com.nandohidayat.app.wordlistsqlwithcontentprovider.Contract.SINGLE_RECORD_MIME_TYPE;
 import static java.lang.Integer.parseInt;
 
 /**

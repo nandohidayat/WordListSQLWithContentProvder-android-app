@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.example.wordlistsqlwithcontentprovider;
+package com.nandohidayat.app.wordlistsqlwithcontentprovider;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -34,7 +34,7 @@ public class EditWordActivity extends AppCompatActivity {
     private EditText mEditWordView;
 
     // Unique tag for the intent reply.
-    public static final String EXTRA_REPLY = "com.example.android.wordlistsqlwithcontentprovider.REPLY";
+    public static final String EXTRA_REPLY = "com.app.android.wordlistsqlwithcontentprovider.REPLY";
 
     private static final String TAG = EditWordActivity.class.getSimpleName();
 
