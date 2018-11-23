@@ -37,7 +37,7 @@ limitations under the License. -->
         </activity>
         <provider
             android:name="com.nandohidayat.app.wordlistsqlwithcontentprovider.WordListContentProvider"
-            android:authorities="com.android.example.wordlistsqlwithcontentprovider.provider"
+            android:authorities="com.nandohidayat.app.wordlistsqlwithcontentprovider.provider"
             android:exported="true">
         </provider>
     </application>

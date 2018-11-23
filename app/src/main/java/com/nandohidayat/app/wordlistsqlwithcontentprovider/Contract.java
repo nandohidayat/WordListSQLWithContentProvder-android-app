@@ -34,7 +34,7 @@ public final class Contract {
 
 
     public static final String AUTHORITY =
-            "com.android.app.wordlistsqlwithcontentprovider.provider";
+            "com.nandohidayat.app.wordlistsqlwithcontentprovider.provider";
 
     // Only one public table.
     public static final String CONTENT_PATH = "words";
